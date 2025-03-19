@@ -1,0 +1,247 @@
+header { background-color: rgb(37, 58, 33);
+    text-align: center;  
+    color: black;     
+          
+    padding: 10px ;
+    box-shadow: 0px 5px 15px rgb(66, 103, 58);
+    margin-bottom: 5px;
+    font-size: 0.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0px 5px 15px rgb(66, 103, 58);
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    a:hover {
+        color:olivedrab;
+    }
+
+}
+/*slideshow start*/
+.slide{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    transform: translate(-50%,0%);
+    top: 20px;
+    left: 50%;
+    overflow: hidden;
+    border: 5px solid #ffffff;
+    border-radius: 8px;
+     box-shadow: 0px 10px 50px 0px  rgb(37, 58, 33);
+    margin: 10px;
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    animation: slide 12s infinite;
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+        /* slide show end*/
+
+img{
+    width: 100%;
+}
+    a
+    {
+       color: #d0d6bf;
+       font-weight: bold;
+       transition: color 0.3s;
+   }
+    * {
+        max-width: 100%;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        
+              }
+
+#row1{display: inline-table;
+    
+    h1{
+            text-align: center;
+    }
+    h2{text-align: center;}
+           background-color: rgb(184, 162, 172);
+            color: rgb(66, 66, 9);
+            text-align: justify;
+            font-family: 'Times New Roman';
+            font-style: italic;
+            font-size: 20px;
+            top: 20%;
+            margin: 30px;
+            border: solid 5px beige;
+            width: 550px;
+            height: auto;
+            padding: 20px;
+            box-shadow: 0px 10px 50px 0px  rgb(37, 58, 33);
+                     
+            margin-bottom: 10px;
+    }
+.row1{ 
+            display: inline-table;
+           h1{
+                text-align: center;
+            } 
+            h2{text-align: center;}
+            background-color: rgb(184, 162, 172);
+             color: rgb(66, 66, 9);
+             text-align: justify;
+             font-family: 'Times New Roman';
+             font-style: italic;
+             font-size: 20px;
+             top: 20%;
+             margin: 30px;
+             border: solid 5px  beige;
+             width: 550px;
+             height: auto;
+             padding: 20px;
+             box-shadow: 0px 10px 50px 0px  rgb(37, 58, 33);    
+                      
+                margin-bottom: 10px;
+                
+    }
+      
+    #content{
+    display: inline-flex;
+    padding: 10px;
+    margin: 10px;
+    }
+    .avatar{
+            float: right;
+            height: 250px; width: 250px;
+            margin-left: 10px;
+            top: -50px;
+            border-radius: 80px;
+    }
+    p{
+            color: rgb(244, 255, 223);
+            text-align: justify;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: larger;
+    }
+    body
+             {  
+                background-color: rgb(189, 203, 190);
+                color: rgb(15, 15, 9);
+                text-align: center;
+                overflow-x: hidden;
+                
+                h4{
+                    color: rgb(9, 54, 66);
+                    text-align: center;
+                }
+                h3{ 
+                    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    color: rgb(9, 54, 66);
+                    font-size: 66px;
+                    text-align: center;
+                    text-decoration: underline;
+                    text-decoration-color: rgb(66, 66, 9);
+                    
+                    }
+   
+                }
+    footer {
+            background-color: rgb(37, 58, 33);
+            box-shadow: 0px 10px 10px 20px  rgb(66, 103, 58);
+            width: 100%;
+            bottom: 0;
+            padding-top: 10px;
+            margin-top: 10px;
+            margin-bottom: 0px;
+            p{
+                text-align: center;
+                background-color: rgb(20, 20, 40);
+            }
+            h2{
+                color: beige;
+                font-style: italic;
+            }
+             #contact{
+                text-align: center;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-style: normal;
+                border: solid beige ;
+                box-shadow: 0px 3px 0px 0px beige;
+                width: auto;
+                height: auto;
+                margin: 5px;
+                padding: 5px;
+                
+            }
+            #toolkit{ 
+                text-align: center;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+             font-style: normal;
+             border: solid beige ;
+             box-shadow: 0px 3px 0px 0px beige;
+             width: auto;
+                height: auto;
+                margin: 5px;
+                padding: 5px;
+                h1{
+                    color: beige;
+                    margin: 5px;
+                    padding: 5px;
+                }
+            }
+            .reach{
+                display: inline-flex;
+            height: auto;
+            width: auto;
+            margin: 10px;
+            padding: 10px;
+            }
+            
+             a{
+                color: beige;
+             }
+             a:hover {
+                color:rgb(39, 103, 49);
+            }
+            img{ border: double beige 5px;
+                margin-bottom: 25px;
+                border-radius: 50%;
+                height: 50px;
+                width: 50px;
+                text-align: center;
+            }
+            img:hover{
+                transition: transform 0.3s ease-in;
+                transform: scale(1.25);
+            }
+}
+        
+       
+           
+       
+        
+      
