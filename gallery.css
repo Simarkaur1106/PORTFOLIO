@@ -2,24 +2,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'pacifico',cursive,'comic sans ms';
 }
 header {text-align: center;
     a{
     color: beige;
 } 
-    background-color: rgb(37, 58, 33);    
+    background-color:rgb(74,34,6);    
     margin-bottom: 10px;
                 
     padding: 10px ;
-    box-shadow: 0px 5px 15px rgb(66, 103, 58);
+    box-shadow: 0px 5px 15px rgb(248, 244, 244);
     margin-bottom: 5px;
     font-size: 0.8em;
     font-weight: bold;
     text-transform: uppercase;
-    box-shadow: 0px 5px 15px rgb(66, 103, 58);
+    box-shadow: 0px 5px 15px light brown;
     font-style: italic;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'pacifico',cursive,'comic sans ms';
     a:hover {
         color:olivedrab;
     }
@@ -34,7 +34,7 @@ header {text-align: center;
     width: 100%;
     border-radius: 10px;
     transition: transform 0.3s ease;
-    box-shadow: 0px 5px 15px rgba(38, 69, 35, 0.998);
+    box-shadow: 0px 5px 15px rgba(81, 119, 77, 0.998);
 }
 .gallery img:hover {
     transform: scale(1.05);
@@ -42,7 +42,6 @@ header {text-align: center;
 #portfolio{
     h1{padding: 10px;
         margin: 15px;
-        text-decoration: wavy underline rgb(163, 130, 130);
         color: rgb(102, 129, 107);
         text-align: center;
         font-size: 36px;
@@ -50,5 +49,5 @@ header {text-align: center;
 }
 
 body{
-    background-color: rgb(205, 201, 194);
+    background-color: beige;
 }
