@@ -1,48 +1,75 @@
-body{background-image: url(newback1.jpg);
-    p{text-align: center;
-        margin-top: 20px;
-        padding: 5px;
-        #home{color: azure;
-        display: block;
-        font-size: 46px;     
-
-        margin-inline-start: 28%;
-        margin-inline-end: 28%;
-        font-weight: bold;
-        transition: transform 0.3s ease;
-        border: solid beige ;
-        border-radius: 100px;
-        text-decoration:unset;
-        
-       } 
-    }
-    p a:hover{
-        transform: scale(1.03);
-    }
-    h1{color: gray;
-        letter-spacing: 20px;
-        text-align: center;
-           font-size: 56px;
-           text-decoration: underline;
-        margin-top: 140px;
-        margin-bottom: 5px;
-    font-family: 'Times New Roman', Times, serif;
-    h3{margin-top: 5px;}
-        
-    }
-    h2{
-        color: azure;
-        text-align: center;
-        margin-top: 80px;
-        font-family: cursive;
-    }
-h3{
-    text-align: center;
-    font-size: 24px;
-    font-family: cursive;
-    margin: 5px;
-    color: azure;
-}
-    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.left-side {
+    background-color:beige ; /* Chocolate brown color */
+    width: 70%;
+}
+.left-side h1{
+    font-size: 70px;
+    font-family: 'pacifico',cursive,'comic sans ms';
+    position: relative;
+    top: 250px;
+    right: 150px; 
+    color: rgb(73,34,6);
+}
+.left-side h2{
+    font-size: 35px;
+    font-family: 'pacifico',cursive,'comic sans ms';
+    position: relative;
+    top: 250px;
+    left: 150px;
+    color: rgb(46, 95, 42);
+}
+
+.right-side {
+    background-color: rgb(73, 34, 6); 
+    width: 30%;
+    position: relative;
+}
+.right-side a{
+    font-size: 36px;
+    font-family:'pacifico',cursive,'comic sans ms';
+    position: relative;
+    top: 600px;
+    left: 250px;
+    color: beige;
+
+}
+.right-side h3{
+    font-size: 40px;
+    font-family: 'pacifico',cursive,'comic sans ms';
+    color: beige;
+    position: relative;
+    top: 100px;
+    left: 40px;
+}
+.heading {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: large;
+    color: black;
+}
+.image{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+    max-width: 120%; /* Adjust this size according to your preference */
+    height:50;
+}
